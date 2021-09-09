@@ -4,5 +4,3 @@ def diff21(n):
         return 21 - n
     else:
         return (n - 21) * 2
-
-print(diff21(1))
