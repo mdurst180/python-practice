@@ -15,5 +15,8 @@ class TestBasics(unittest.TestCase):
     def test_near_hundred_95(self):
         self.assertEqual(basics.near_hundred(22), True, "Should be True")
 
+    def test_near_hundred_89(self):
+        self.assertEqual(basics.near_hundred(22), False, "Should be False")
+
 if __name__ == '__main__':
     unittest.main()
