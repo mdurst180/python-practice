@@ -10,4 +10,6 @@ def diff21(n):
 # near_hundred(90) → True
 # near_hundred(89) → False
 def near_hundred(n):
+    if n < 90 or n > 110:
+        return False
     return True
